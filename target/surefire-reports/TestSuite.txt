@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.131 s - in TestSuite
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 2, Time elapsed: 2.705 s <<< FAILURE! - in TestSuite
+openApplication(com.project.test.ValidLogin)  Time elapsed: 2.34 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SELENIUM-PC', ip: '192.168.1.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.9:4444 [/192.168.1.9] failed: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+
+openApplication(com.project.test.ValidLogin)  Time elapsed: 0 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SELENIUM-PC', ip: '192.168.1.9', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.9:4444 [/192.168.1.9] failed: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+
+closeApplication(com.project.test.ValidLogin)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+closeApplication(com.project.test.ValidLogin)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+

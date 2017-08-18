@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestFirefox(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.1.9:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.project.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="closeApplication"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.project.test.ValidLogin -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.1.9:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.project.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="closeApplication"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.project.test.ValidLogin -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
