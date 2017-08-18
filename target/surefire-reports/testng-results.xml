@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54179" started-at="2017-08-16T06:15:15Z" finished-at="2017-08-16T06:16:09Z">
+    <groups>
+      <group name="valid">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.project.test.ValidLogin@77b52d12]" name="testValidLogin" class="com.project.test.ValidLogin"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.project.test.ValidLogin@7225790e]" name="testValidLogin" class="com.project.test.ValidLogin"/>
+      </group> <!-- valid -->
+      <group name="login">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.project.test.ValidLogin@77b52d12]" name="testValidLogin" class="com.project.test.ValidLogin"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.project.test.ValidLogin@7225790e]" name="testValidLogin" class="com.project.test.ValidLogin"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="TestFirefox" duration-ms="54179" started-at="2017-08-16T06:15:15Z" finished-at="2017-08-16T06:16:09Z">
+      <class name="com.project.test.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.project.test.ValidLogin@77b52d12]" name="openApplication" is-config="true" duration-ms="45379" started-at="2017-08-16T11:45:15Z" finished-at="2017-08-16T11:46:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.9:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.project.test.ValidLogin@77b52d12]" name="testValidLogin" duration-ms="4856" started-at="2017-08-16T11:46:00Z" finished-at="2017-08-16T11:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.project.test.ValidLogin@77b52d12]" name="closeApplication" is-config="true" duration-ms="3928" started-at="2017-08-16T11:46:05Z" finished-at="2017-08-16T11:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.project.test.ValidLogin -->
+    </test> <!-- TestFirefox -->
+    <test name="TestChrome" duration-ms="54179" started-at="2017-08-16T06:15:15Z" finished-at="2017-08-16T06:16:09Z">
+      <class name="com.project.test.ValidLogin">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:com.project.test.ValidLogin@7225790e]" name="openApplication" is-config="true" duration-ms="45642" started-at="2017-08-16T11:45:15Z" finished-at="2017-08-16T11:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.9:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.project.test.ValidLogin@7225790e]" name="testValidLogin" duration-ms="5243" started-at="2017-08-16T11:46:01Z" finished-at="2017-08-16T11:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.project.test.ValidLogin@7225790e]" name="closeApplication" is-config="true" duration-ms="3278" started-at="2017-08-16T11:46:06Z" finished-at="2017-08-16T11:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.project.test.ValidLogin -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

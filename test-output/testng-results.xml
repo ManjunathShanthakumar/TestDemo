@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Bengaluru basavanagudi]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47" started-at="2017-08-15T07:25:52Z" finished-at="2017-08-15T07:25:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47" started-at="2017-08-15T07:25:52Z" finished-at="2017-08-15T07:25:52Z">
+      <class name="qsp.Demo">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:qsp.Demo@4de8b406]" name="test" duration-ms="16" started-at="2017-08-15T12:55:52Z" finished-at="2017-08-15T12:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bengaluru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[basavanagudi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Bengaluru basavanagudi]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- qsp.Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
